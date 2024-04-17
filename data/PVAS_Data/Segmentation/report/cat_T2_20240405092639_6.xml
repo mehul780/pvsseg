@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S>
+   <SPMpreprocessing>
+      <Affine>[1.10069960858986 0.0182125957209881 -0.0160909336934097 -2.13967404584801;0.0108424726033849 1.05837112730984 -0.0154683311601099 -32.5162554397233;0.0114877703997762 0.0407389350321961 1.13314744258278 -22.3043930376153;0 0 0 1]</Affine>
+      <Affine0>[1.10069960858986 0.0182125957209881 -0.0160909336934097 -2.13967404584801;0.0108424726033849 1.05837112730984 -0.0154683311601099 -32.5162554397233;0.0114877703997762 0.0407389350321961 1.13314744258278 -22.3043930376153;0 0 0 1]</Affine0>
+      <lkp>[1 2 3 3 4 4 4 5 5 5 5 6 6]</lkp>
+      <mn>[1144.91332286224 806.938859136017 1170.73485725194 1939.34905848446 302.573907012467 62.6861891656006 141.70566319531 606.695299027966 931.82994213112 844.642994123893 435.946581973189 172.769330551519 79.509711909702]</mn>
+      <vr>[20060.5549642263;4541.47059958508;216913.489837192;71586.0939520777;12964.079998893;812.299432079099;2803.35387216447;11709.063727367;44251.6197868655;56433.4475978921;26337.7386736565;3594.66652962875;871.386687597193]</vr>
+      <ll>-6.88037157058716</ll>
+      <Affine_translation>[-2.13967404584801 -32.5162554397233 -22.3043930376153]</Affine_translation>
+      <Affine_rotation>[-0.038300266366861 -0.0100516116152011 -0.0102420627431944]</Affine_rotation>
+      <Affine_scaling>[1.10081295251772 1.0589127921889 1.13301323357673]</Affine_scaling>
+      <Affine_shearing>[0.0263989459682675 -0.00401196998646205 0.0264223381404343]</Affine_shearing>
+      <Affine0_translation>[-2.13967404584801 -32.5162554397233 -22.3043930376153]</Affine0_translation>
+      <Affine0_rotation>[-0.038300266366861 -0.0100516116152011 -0.0102420627431944]</Affine0_rotation>
+      <Affine0_scaling>[1.10081295251772 1.0589127921889 1.13301323357673]</Affine0_scaling>
+      <Affine0_shearing>[0.0263989459682675 -0.00401196998646205 0.0264223381404343]</Affine0_shearing>
+   </SPMpreprocessing>
+   <filedata>
+      <path>/Volumes/VERBATIM</path>
+      <file>T2_20240405092639_6</file>
+      <fname>/Volumes/VERBATIM/T2_20240405092639_6.nii</fname>
+      <F>/Volumes/VERBATIM/T2_20240405092639_6.nii</F>
+      <Fm>/Volumes/VERBATIM/mri/mT2_20240405092639_6.nii</Fm>
+      <Fp0>/Volumes/VERBATIM/mri/p0T2_20240405092639_6.nii</Fp0>
+      <fnames>/Volumes/VERBATIM/T2_20240405092639_6</fnames>
+   </filedata>
+   <parameter>
+      <opts>
+         <tpm>
+            <item>/Applications/SPM12/tpm/TPM.nii</item>
+         </tpm>
+         <ngaus>[1 1 2 3 4 2]</ngaus>
+         <affreg>mni</affreg>
+         <warpreg>[0 0.001 0.5 0.05 0.2]</warpreg>
+         <tol>0.0001</tol>
+         <accstr>0.5</accstr>
+         <biasstr>0.5</biasstr>
+         <biasreg>0.001</biasreg>
+         <biasfwhm>60</biasfwhm>
+         <samp>3</samp>
+         <redspmres>0</redspmres>
+         <fwhm>1</fwhm>
+         <biasacc>0</biasacc>
+      </opts>
+      <extopts>
+         <uhrlim>1.4</uhrlim>
+         <gcutstr>2</gcutstr>
+         <cleanupstr>0.5</cleanupstr>
+         <NCstr>-Inf</NCstr>
+         <LASstr>0.5</LASstr>
+         <BVCstr>0.5</BVCstr>
+         <regstr>1</regstr>
+         <WMHC>2</WMHC>
+         <WMHCstr>0.5</WMHCstr>
+         <SLC>0</SLC>
+         <mrf>1</mrf>
+         <restype>optimal</restype>
+         <resval>[1 0.3]</resval>
+         <bids_folder>../derivatives/CAT12.9_2560</bids_folder>
+         <bids_yes>0</bids_yes>
+         <nproc>16</nproc>
+         <species>human</species>
+         <APP>1070</APP>
+         <setCOM>1</setCOM>
+         <vox>1.5</vox>
+         <bb>12</bb>
+         <shootingsurf>Template_T1</shootingsurf>
+         <pth_templates>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym</pth_templates>
+         <darteltpm>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
+         </darteltpm>
+         <shootingtpm>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+         </shootingtpm>
+         <shootingT1>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_T1_masked.nii</item>
+         </shootingT1>
+         <brainmask>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/brainmask.nii</item>
+         </brainmask>
+         <T1>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/T1.nii</item>
+         </T1>
+         <cat12atlas>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/cat.nii</item>
+         </cat12atlas>
+         <pbtres>0.5</pbtres>
+         <SRP>22</SRP>
+         <reduce_mesh>1</reduce_mesh>
+         <vdist>2</vdist>
+         <pbtlas>0</pbtlas>
+         <thick_measure>1</thick_measure>
+         <thick_limit>5</thick_limit>
+         <close_parahipp>1</close_parahipp>
+         <scale_cortex>0.7</scale_cortex>
+         <add_parahipp>0.1</add_parahipp>
+         <colormap>BCGWHw</colormap>
+         <report/>
+         <verb>2</verb>
+         <ignoreErrors>1</ignoreErrors>
+         <expertgui>1</expertgui>
+         <subfolders>1</subfolders>
+         <experimental>0</experimental>
+         <print>2</print>
+         <fontsize>10</fontsize>
+         <send_info>1</send_info>
+         <gifti_dat>1</gifti_dat>
+         <atlas>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/neuromorphometrics.nii</td>
+               <td>0</td>
+               <td>
+                  <item>csf</item>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/lpba40.nii</td>
+               <td>0</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/cobra.nii</td>
+               <td>0</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/hammers.nii</td>
+               <td>0</td>
+               <td>
+                  <item>csf</item>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/thalamus.nii</td>
+               <td>0</td>
+               <td>
+                  <item>gm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/thalamic_nuclei.nii</td>
+               <td>0</td>
+               <td>
+                  <item>gm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/suit.nii</td>
+               <td>0</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/ibsr.nii</td>
+               <td>0</td>
+               <td>
+                  <item>csf</item>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/aal3.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/mori.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/anatomy3.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/julichbrain.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Tian_Subcortex_S4_7T.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Schaefer2018_100Parcels_17Networks_order.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Schaefer2018_200Parcels_17Networks_order.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Schaefer2018_400Parcels_17Networks_order.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+            <tr>
+               <td>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Schaefer2018_600Parcels_17Networks_order.nii</td>
+               <td>1</td>
+               <td>
+                  <item>gm</item>
+                  <item>wm</item>
+               </td>
+               <td>[false]</td>
+            </tr>
+         </atlas>
+         <satlas>
+            <tr>
+               <td>Desikan</td>
+               <td>/Applications/SPM12/toolbox/cat12/atlases_surfaces/lh.aparc_a2009s.freesurfer.annot</td>
+               <td>0</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>Destrieux</td>
+               <td>/Applications/SPM12/toolbox/cat12/atlases_surfaces/lh.aparc_DK40.freesurfer.annot</td>
+               <td>0</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>HCP</td>
+               <td>/Applications/SPM12/toolbox/cat12/atlases_surfaces/lh.aparc_HCP_MMP1.freesurfer.annot</td>
+               <td>0</td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>Schaefer2018_100P_17N</td>
+               <td>/Applications/SPM12/toolbox/cat12/atlases_surfaces/lh.Schaefer2018_100Parcels_17Networks_order.annot</td>
+               <td>1</td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>Schaefer2018_200P_17N</td>
+               <td>/Applications/SPM12/toolbox/cat12/atlases_surfaces/lh.Schaefer2018_200Parcels_17Networks_order.annot</td>
+               <td>0</td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>Schaefer2018_400P_17N</td>
+               <td>/Applications/SPM12/toolbox/cat12/atlases_surfaces/lh.Schaefer2018_400Parcels_17Networks_order.annot</td>
+               <td>1</td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>Schaefer2018_600P_17N</td>
+               <td>/Applications/SPM12/toolbox/cat12/atlases_surfaces/lh.Schaefer2018_600Parcels_17Networks_order.annot</td>
+               <td>1</td>
+               <td>0</td>
+            </tr>
+         </satlas>
+         <LAB>
+            <NB>0</NB>
+            <CT>1</CT>
+            <CB>3</CB>
+            <BG>5</BG>
+            <BV>7</BV>
+            <TH>9</TH>
+            <ON>11</ON>
+            <MB>13</MB>
+            <BS>13</BS>
+            <VT>15</VT>
+            <NV>17</NV>
+            <HC>19</HC>
+            <HD>21</HD>
+            <HI>23</HI>
+            <PH>25</PH>
+            <LE>27</LE>
+         </LAB>
+         <new_release>0</new_release>
+         <lazy>0</lazy>
+         <affmod>0</affmod>
+         <regmethod>
+            <shooting>
+               <shootingtpm>
+                  <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+               </shootingtpm>
+               <regstr>1</regstr>
+            </shooting>
+         </regmethod>
+         <restypes>
+            <optimal>[1 0.3]</optimal>
+         </restypes>
+         <LASmyostr>0</LASmyostr>
+         <pbtmethod>pbtsimple</pbtmethod>
+         <darteltpms>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_1_Dartel.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_2_Dartel.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_3_Dartel.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_4_Dartel.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_5_Dartel.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_6_Dartel.nii</item>
+         </darteltpms>
+         <shootingtpms>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_1_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_2_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_3_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_4_GS.nii</item>
+         </shootingtpms>
+         <inv_weighting>[true]</inv_weighting>
+         <histth>[0.96 0.9999]</histth>
+         <templates>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_1_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_2_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_3_GS.nii</item>
+            <item>/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_4_GS.nii</item>
+         </templates>
+         <AMAPframing>1</AMAPframing>
+      </extopts>
+   </parameter>
+   <qualitymeasures>
+      <res_vx_vol>[0.75 0.75 0.75]</res_vx_vol>
+      <res_vx_voli>[0.75 0.75 0.75]</res_vx_voli>
+      <res_RMS>0.75</res_RMS>
+      <res_BB>0</res_BB>
+      <res_ECR>0.585823535919189</res_ECR>
+      <tissue_mn>[0.0799501016736031 2296.23803710938 1499.32543945312 1196.41784667969]</tissue_mn>
+      <tissue_mnr>[5.33240490767639e-05 1.53151404857635 1 0.797970771789551]</tissue_mnr>
+      <tissue_weighting>inverse</tissue_weighting>
+      <tissue_std>[0.544721700611194 0.51778235833439 0.381437943576738 0.141440402584676]</tissue_std>
+      <tissue_stdr>[0.000455324276117608 0.000432806118624285 0.000318837963277474 0.000118227806524374]</tissue_stdr>
+      <contrast>302.923736572266</contrast>
+      <contrastr>0.202040016651154</contrastr>
+      <NCR>0.0218890216201544</NCR>
+      <ICR>0.234915509819984</ICR>
+   </qualitymeasures>
+   <qualityratings>
+      <res_vx_vol>[1.5 1.5 1.5]</res_vx_vol>
+      <res_RMS>1.5</res_RMS>
+      <res_ECR>3.63327741622925</res_ECR>
+      <res_BB>1</res_BB>
+      <tissue_mn>[1.53125238418579 8.62400054931641 8.62400054931641 8.62400054931641]</tissue_mn>
+      <tissue_std>[7.98055338842261 7.76370082329494 5.79135836756985 1.16191527244008]</tissue_std>
+      <contrast>-4537.85595703125</contrast>
+      <contrastr>2.96939969062805</contrastr>
+      <NCR>0.645263014931874</NCR>
+      <ICR>1.04244923591614</ICR>
+      <SIQR>3.16740979097932</SIQR>
+      <SIQR3rms2>3.16740979097932</SIQR3rms2>
+      <SIQR4rms2>2.05874777177673</SIQR4rms2>
+      <SIQR4rms8>3.05555006325821</SIQR4rms8>
+      <IQR>1.37570758284887</IQR>
+   </qualityratings>
+   <ratings_help>
+      <qualitymeasures>
+         <res_vx_vol>voxel dimensions</res_vx_vol>
+         <res_RMS>RMS error of voxel size</res_RMS>
+         <res_ECR>normalized gradient slope of the white matter boundary</res_ECR>
+         <res_BB>brain next to the image boundary</res_BB>
+         <tissue_mn>mean within the tissue classes</tissue_mn>
+         <tissue_std>standard deviation within the tissue classes</tissue_std>
+         <contrast>contrast between tissue classes</contrast>
+         <contrastr>contrast between tissue classes</contrastr>
+         <NCR>noise to contrast ratio</NCR>
+         <ICR>inhomogeneity to contrast ratio</ICR>
+      </qualitymeasures>
+      <subjectmeasures>
+         <vol_TIV>total intracranial volume (GM+WM+VT)</vol_TIV>
+         <vol_rel_CGW>relative tissue volume (CSF,GM,WM)</vol_rel_CGW>
+         <vol_rel_WMH>relative WMH volume</vol_rel_WMH>
+      </subjectmeasures>
+   </ratings_help>
+   <software>
+      <system>MAC</system>
+      <version_spm>7771</version_spm>
+      <version_matlab>9.9</version_matlab>
+      <version_cat>12.9</version_cat>
+      <revision_cat>2560</revision_cat>
+      <function>/Applications/SPM12/toolbox/cat12/cat_vol_qa202205.m</function>
+      <markdefs>/Applications/SPM12/toolbox/cat12/cat_stat_marks.m</markdefs>
+      <qamethod>cat12</qamethod>
+      <date>20240412-143738</date>
+      <cat_warnings>
+         <item>
+            <identifier>cat_run_job1639:nonT1contrast</identifier>
+            <message>A non-T1 contrast was detected and the NEW EXPERIMENTAL &lt;/br&gt;PIPELINE is used! If it is was a high-resolution T1 image, &lt;/br&gt;the initial segmentation might have failed, probably due &lt;/br&gt;to alignment problems (please check the image orientation). &lt;/br&gt;In case of registration issues, try to change the following &lt;/br&gt; ...parameter indepently: &lt;/br&gt; * "Affine Regularisation" = "No regularisation" &lt;/br&gt; ... * "Use center-of-mass to set origin" = "No" &lt;/br&gt; ... * "Affine Preprocessing (APP)" = "none"</message>
+            <level>1</level>
+            <data>[1575.06147 1144.91332 806.93886 163.89454 687.32278 115.61865]</data>
+         </item>
+         <item>
+            <identifier>cat_main:skipLAS</identifier>
+            <message>Skip LAS due to image contrast. Use global normalization.</message>
+            <level>0</level>
+         </item>
+      </cat_warnings>
+   </software>
+   <subjectmeasures>
+      <software/>
+      <vol_abs_CGW>[269.4618 686.396397242647 427.308485294118 0 0]</vol_abs_CGW>
+      <vol_abs_WMH>0</vol_abs_WMH>
+      <vol_rel_WMH>0</vol_rel_WMH>
+      <vol_TIV>1383.16668253676</vol_TIV>
+      <vol_rel_CGW>[0.194815132118278 0.496249950138893 0.308934917742829 0 0]</vol_rel_CGW>
+   </subjectmeasures>
+   <subjectratings>
+      <vol_TIV>1.00674807758432</vol_TIV>
+      <vol_rel_CGW>[1.34869130959551 6.76239134588529 3.39825642497898 -2.15014367816092 -2.15014367816092]</vol_rel_CGW>
+      <vol_rel_WMH>1</vol_rel_WMH>
+      <SQR>5.53300167832538</SQR>
+   </subjectratings>
+   <catlog>
+      <item>------------------------------------------------------------------------</item>
+      <item>CAT12.9 r2560: 2/2: /Volumes/VERBATIM/T2_20240405092639_6.nii</item>
+      <item>------------------------------------------------------------------------</item>
+      <item>SANLM denoising (medium) 58s</item>
+      <item>Affine preprocessing (APP)</item>
+      <item>Initialize 8s</item>
+      <item>Estimate background 3s</item>
+      <item>Initial correction 8s</item>
+      <item>Refine background 4s</item>
+      <item>Final correction 6s</item>
+      <item>Final scaling 7s</item>
+      <item>45s</item>
+      <item>Correct center-of-mass 17s</item>
+      <item>Affine registration 61s</item>
+      <item>SPM preprocessing 1 (estimate 1 - TPM registration): 29s</item>
+      <item>SPM preprocessing 1 (estimate 2): 43s</item>
+      <item>------------------------------------------------------------------------------</item>
+      <item>WARNING 01: cat_run_job1639:nonT1contrast</item>
+      <item>A non-T1 contrast was detected and the NEW EXPERIMENTAL</item>
+      <item>PIPELINE is used! If it is was a high-resolution T1 image,</item>
+      <item>the initial segmentation might have failed, probably due</item>
+      <item>to alignment problems (please check the image orientation).</item>
+      <item>In case of registration issues, try to change the following</item>
+      <item>...parameter indepently:</item>
+      <item>* "Affine Regularisation" = "No regularisation"</item>
+      <item>... * "Use center-of-mass to set origin" = "No"</item>
+      <item>... * "Affine Preprocessing (APP)" = "none"</item>
+      <item>------------------------------------------------------------------------------</item>
+      <item>SPM preprocessing 2 (write)</item>
+      <item>Write Segmentation 25s</item>
+      <item>Update segmentation 22s</item>
+      <item>Update skull-stripping 12s</item>
+      <item>Update probability maps 1s</item>
+      <item>Update registration 39s</item>
+      <item>98s</item>
+      <item>Global intensity correction SANLM denoising after intensity normalization (medium) 10s</item>
+      <item>------------------------------------------------------------------------</item>
+      <item>NOTE 01: cat_main:skipLAS</item>
+      <item>Skip LAS due to image contrast. Use global normalization.</item>
+      <item>------------------------------------------------------------------------</item>
+      <item>51s</item>
+      <item>SANLM denoising after LAS (medium) 49s</item>
+      <item>59s</item>
+      <item>--- Update Ym and Ymi ---</item>
+      <item>ROI segmentation (partitioning)</item>
+      <item>Atlas -&gt; subject space 9s</item>
+      <item>Major structures 13s</item>
+      <item>Ventricle detection 11s</item>
+      <item>Blood vessel detection 3s</item>
+      <item>Manual stroke lesion detection 0s</item>
+      <item>Closing of deep structures 1s</item>
+      <item>Side alignment 3s</item>
+      <item>Final corrections 2s</item>
+      <item>43s</item>
+      <item>Amap using initial SPM12 segmentations (MRF filter strength 0.07) 31s</item>
+      <item>AMAP peaks: [0.96Â±0.04,0.70Â±0.08,0.36Â±0.08]</item>
+      <item>--- Update Ym and Ymi ---</item>
+      <item>Optimized Shooting registration with 2.50:-0.25:1.50 mm (regstr=1.00)</item>
+      <item>Template: "/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii"</item>
+      <item>1 | 2.50 | 0.0822 0.0000 0.0822 | 32.0000</item>
+      <item>2 | 2.50 | 0.0790 0.0013 0.0803 | 29.4886</item>
+      <item>3 | 2.50 | 0.0781 0.0020 0.0801 | 26.9772</item>
+      <item>4 | 2.50 | 0.0776 0.0023 0.0799 | 24.6107</item>
+      <item>5 | 2.50 | 0.0772 0.0025 0.0797 | 22.6548</item>
+      <item>6 | 2.50 | 0.0769 0.0026 0.0795 | 20.6989</item>
+      <item>7 | 2.50 | 0.0766 0.0027 0.0793 | 18.9688</item>
+      <item>8 | 2.50 | 0.0762 0.0028 0.0791 | 17.4455</item>
+      <item>9 | 2.50 | 0.0759 0.0029 0.0788 | 15.9223</item>
+      <item>10 | 2.50 | 0.0755 0.0030 0.0785 | 14.6627</item>
+      <item>11 | 2.50 | 0.0751 0.0031 0.0783 | 13.4764</item>
+      <item>12 | 2.50 | 0.0748 0.0032 0.0780 | 12.3015</item>
+      <item>13 | 2.50 | 0.0743 0.0034 0.0777 | 11.3776</item>
+      <item>14 | 2.50 | 0.0740 0.0034 0.0774 | 10.4537</item>
+      <item>15 | 2.25 | 0.0722 0.0036 0.0757 | 9.5920</item>
+      <item>16 | 2.25 | 0.0693 0.0050 0.0743 | 8.8725</item>
+      <item>17 | 2.25 | 0.0681 0.0055 0.0737 | 8.1530</item>
+      <item>18 | 2.25 | 0.0674 0.0057 0.0731 | 7.5234</item>
+      <item>19 | 2.25 | 0.0668 0.0058 0.0726 | 6.9630</item>
+      <item>20 | 2.25 | 0.0662 0.0058 0.0721 | 6.4027</item>
+      <item>21 | 2.25 | 0.0657 0.0059 0.0716 | 5.9447</item>
+      <item>22 | 2.25 | 0.0652 0.0059 0.0711 | 5.5083</item>
+      <item>23 | 2.25 | 0.0647 0.0058 0.0706 | 5.0803</item>
+      <item>24 | 2.25 | 0.0643 0.0058 0.0701 | 4.7404</item>
+      <item>25 | 2.25 | 0.0639 0.0058 0.0696 | 4.4005</item>
+      <item>26 | 2.25 | 0.0634 0.0057 0.0692 | 4.0868</item>
+      <item>27 | 2.25 | 0.0630 0.0057 0.0688 | 3.8221</item>
+      <item>28 | 2.25 | 0.0627 0.0056 0.0683 | 3.5574</item>
+      <item>29 | 2.00 | 0.0633 0.0054 0.0687 | 3.3283</item>
+      <item>30 | 2.00 | 0.0616 0.0060 0.0675 | 3.1221</item>
+      <item>31 | 2.00 | 0.0608 0.0062 0.0670 | 2.9160</item>
+      <item>32 | 2.00 | 0.0603 0.0062 0.0666 | 2.7495</item>
+      <item>33 | 2.00 | 0.0599 0.0062 0.0662 | 2.5890</item>
+      <item>34 | 2.00 | 0.0595 0.0062 0.0657 | 2.4330</item>
+      <item>35 | 2.00 | 0.0592 0.0062 0.0654 | 2.3080</item>
+      <item>36 | 2.00 | 0.0589 0.0062 0.0650 | 2.1830</item>
+      <item>37 | 2.00 | 0.0586 0.0061 0.0647 | 2.0688</item>
+      <item>38 | 2.00 | 0.0583 0.0061 0.0644 | 1.9714</item>
+      <item>39 | 2.00 | 0.0580 0.0061 0.0641 | 1.8740</item>
+      <item>40 | 2.00 | 0.0578 0.0060 0.0638 | 1.7907</item>
+      <item>41 | 2.00 | 0.0576 0.0060 0.0636 | 1.7148</item>
+      <item>42 | 2.00 | 0.0573 0.0059 0.0633 | 1.6390</item>
+      <item>43 | 1.75 | 0.0569 0.0055 0.0623 | 1.5785</item>
+      <item>44 | 1.75 | 0.0556 0.0061 0.0617 | 1.5194</item>
+      <item>45 | 1.75 | 0.0551 0.0063 0.0614 | 1.4626</item>
+      <item>46 | 1.75 | 0.0548 0.0064 0.0612 | 1.4166</item>
+      <item>47 | 1.75 | 0.0546 0.0064 0.0610 | 1.3706</item>
+      <item>48 | 1.75 | 0.0544 0.0064 0.0608 | 1.3290</item>
+      <item>49 | 1.75 | 0.0543 0.0064 0.0606 | 1.2932</item>
+      <item>50 | 1.75 | 0.0541 0.0064 0.0605 | 1.2574</item>
+      <item>51 | 1.75 | 0.0540 0.0064 0.0603 | 1.2271</item>
+      <item>52 | 1.75 | 0.0538 0.0064 0.0602 | 1.1992</item>
+      <item>53 | 1.75 | 0.0537 0.0063 0.0600 | 1.1713</item>
+      <item>54 | 1.75 | 0.0536 0.0063 0.0599 | 1.1493</item>
+      <item>55 | 1.75 | 0.0535 0.0063 0.0598 | 1.1276</item>
+      <item>56 | 1.75 | 0.0534 0.0063 0.0597 | 1.1069</item>
+      <item>57 | 1.50 | 0.0525 0.0057 0.0582 | 1.0900</item>
+      <item>58 | 1.50 | 0.0511 0.0067 0.0577 | 1.0730</item>
+      <item>59 | 1.50 | 0.0506 0.0070 0.0576 | 1.0579</item>
+      <item>60 | 1.50 | 0.0504 0.0071 0.0575 | 1.0447</item>
+      <item>61 | 1.50 | 0.0503 0.0071 0.0574 | 1.0316</item>
+      <item>62 | 1.50 | 0.0502 0.0071 0.0574 | 1.0205</item>
+      <item>63 | 1.50 | 0.0502 0.0071 0.0573 | 1.0103</item>
+      <item>Shooting registration with 2.50:-0.25:1.50 mm takes 310s</item>
+      <item>Prepare output 11s</item>
+      <item>322s</item>
+      <item>Jacobian determinant (RMS): 0.013 0.048 0.083 0.108 0.131 | 0.137935</item>
+      <item>Template Matching: 0.082 0.072 0.063 0.057 0.052 | 0.150530</item>
+      <item>Write result maps 66s</item>
+      <item>ROI estimation in native space</item>
+      <item>0s</item>
+      <item>Quality check 6s</item>
+      <item>/Volumes/VERBATIM/report/catreport_T2_20240405092639_6.pdf</item>
+      <item>------------------------------------------------------------------------</item>
+      <item>CAT preprocessing takes 17 minute(s) and 43 second(s).</item>
+      <item>Image Quality Rating (IQR): 91.24% (A-)</item>
+      <item>GM volume (GMV): 49.62% (686.40 / 1383.17 ml)</item>
+      <item>Segmentations are saved in /Volumes/VERBATIM/mri</item>
+      <item>Reports are saved in /Volumes/VERBATIM/report</item>
+      <item>Labels are saved in /Volumes/VERBATIM/label</item>
+      <item>------------------------------------------------------------------------</item>
+   </catlog>
+</S>

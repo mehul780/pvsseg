@@ -1,0 +1,143 @@
+
+------------------------------------------------------------------------
+CAT12.9 r2560: 2/2:            /Volumes/VERBATIM/T2_20240405092639_6.nii
+------------------------------------------------------------------------
+SANLM denoising (medium)                                             58s
+Affine preprocessing (APP)                                        
+  Initialize                                                          8s
+  Estimate background                                                 3s
+  Initial correction                                                  8s
+  Refine background                                                   4s
+  Final correction                                                    6s
+  Final scaling                                                       7s
+                                                                     45s
+Correct center-of-mass                                               17s
+Affine registration                                                  61s
+SPM preprocessing 1 (estimate 1 - TPM registration):                 29s
+SPM preprocessing 1 (estimate 2):                                    43s
+    ------------------------------------------------------------------------------
+     WARNING 01:  cat_run_job1639:nonT1contrast
+                  A non-T1 contrast was detected and the NEW EXPERIMENTAL 
+                  PIPELINE is used! If it is was a high-resolution T1 image, 
+                  the initial segmentation might have failed, probably due 
+                  to alignment problems (please check the image orientation). 
+                  In case of registration issues, try to change the following 
+                   ...parameter indepently: 
+                   * "Affine Regularisation"             = "No regularisation" 
+                   ... * "Use center-of-mass to set origin"  = "No" 
+                   ...  * "Affine Preprocessing (APP)"        = "none" 
+    ------------------------------------------------------------------------------
+SPM preprocessing 2 (write)                                       
+  Write Segmentation                                                 25s
+  Update segmentation                                                22s
+  Update skull-stripping                                             12s
+  Update probability maps                                             1s
+  Update registration                                                39s
+                                                                     98s
+Global intensity correction                                       SANLM denoising after intensity normalization (medium)               10s
+    ------------------------------------------------------------------------
+     NOTE 01:     cat_main:skipLAS
+                  Skip LAS due to image contrast. Use global normalization.
+    ------------------------------------------------------------------------
+   51s
+  SANLM denoising after LAS (medium)                                 49s
+                                                                     59s
+ --- Update Ym and Ymi --- 
+ROI segmentation (partitioning)                                   
+  Atlas -> subject space                                              9s
+  Major structures                                                   13s
+  Ventricle detection                                                11s
+  Blood vessel detection                                              3s
+  Manual stroke lesion detection                                      0s
+  Closing of deep structures                                          1s
+  Side alignment                                                      3s
+  Final corrections                                                   2s
+                                                                     43s
+Amap using initial SPM12 segmentations (MRF filter strength 0.07)    31s
+    AMAP peaks: [0.96±0.04,0.70±0.08,0.36±0.08]
+ --- Update Ym and Ymi --- 
+Optimized Shooting registration with 2.50:-0.25:1.50 mm (regstr=1.00)
+  Template: "/Applications/SPM12/toolbox/cat12/templates_MNI152NLin2009cAsym/Template_0_GS.nii"
+    1 | 2.50 | 0.0822  0.0000  0.0822 |  32.0000 
+    2 | 2.50 | 0.0790  0.0013  0.0803 |  29.4886 
+    3 | 2.50 | 0.0781  0.0020  0.0801 |  26.9772 
+    4 | 2.50 | 0.0776  0.0023  0.0799 |  24.6107 
+    5 | 2.50 | 0.0772  0.0025  0.0797 |  22.6548 
+    6 | 2.50 | 0.0769  0.0026  0.0795 |  20.6989 
+    7 | 2.50 | 0.0766  0.0027  0.0793 |  18.9688 
+    8 | 2.50 | 0.0762  0.0028  0.0791 |  17.4455 
+    9 | 2.50 | 0.0759  0.0029  0.0788 |  15.9223 
+   10 | 2.50 | 0.0755  0.0030  0.0785 |  14.6627 
+   11 | 2.50 | 0.0751  0.0031  0.0783 |  13.4764 
+   12 | 2.50 | 0.0748  0.0032  0.0780 |  12.3015 
+   13 | 2.50 | 0.0743  0.0034  0.0777 |  11.3776 
+   14 | 2.50 | 0.0740  0.0034  0.0774 |  10.4537 
+   15 | 2.25 | 0.0722  0.0036  0.0757 |   9.5920 
+   16 | 2.25 | 0.0693  0.0050  0.0743 |   8.8725 
+   17 | 2.25 | 0.0681  0.0055  0.0737 |   8.1530 
+   18 | 2.25 | 0.0674  0.0057  0.0731 |   7.5234 
+   19 | 2.25 | 0.0668  0.0058  0.0726 |   6.9630 
+   20 | 2.25 | 0.0662  0.0058  0.0721 |   6.4027 
+   21 | 2.25 | 0.0657  0.0059  0.0716 |   5.9447 
+   22 | 2.25 | 0.0652  0.0059  0.0711 |   5.5083 
+   23 | 2.25 | 0.0647  0.0058  0.0706 |   5.0803 
+   24 | 2.25 | 0.0643  0.0058  0.0701 |   4.7404 
+   25 | 2.25 | 0.0639  0.0058  0.0696 |   4.4005 
+   26 | 2.25 | 0.0634  0.0057  0.0692 |   4.0868 
+   27 | 2.25 | 0.0630  0.0057  0.0688 |   3.8221 
+   28 | 2.25 | 0.0627  0.0056  0.0683 |   3.5574 
+   29 | 2.00 | 0.0633  0.0054  0.0687 |   3.3283 
+   30 | 2.00 | 0.0616  0.0060  0.0675 |   3.1221 
+   31 | 2.00 | 0.0608  0.0062  0.0670 |   2.9160 
+   32 | 2.00 | 0.0603  0.0062  0.0666 |   2.7495 
+   33 | 2.00 | 0.0599  0.0062  0.0662 |   2.5890 
+   34 | 2.00 | 0.0595  0.0062  0.0657 |   2.4330 
+   35 | 2.00 | 0.0592  0.0062  0.0654 |   2.3080 
+   36 | 2.00 | 0.0589  0.0062  0.0650 |   2.1830 
+   37 | 2.00 | 0.0586  0.0061  0.0647 |   2.0688 
+   38 | 2.00 | 0.0583  0.0061  0.0644 |   1.9714 
+   39 | 2.00 | 0.0580  0.0061  0.0641 |   1.8740 
+   40 | 2.00 | 0.0578  0.0060  0.0638 |   1.7907 
+   41 | 2.00 | 0.0576  0.0060  0.0636 |   1.7148 
+   42 | 2.00 | 0.0573  0.0059  0.0633 |   1.6390 
+   43 | 1.75 | 0.0569  0.0055  0.0623 |   1.5785 
+   44 | 1.75 | 0.0556  0.0061  0.0617 |   1.5194 
+   45 | 1.75 | 0.0551  0.0063  0.0614 |   1.4626 
+   46 | 1.75 | 0.0548  0.0064  0.0612 |   1.4166 
+   47 | 1.75 | 0.0546  0.0064  0.0610 |   1.3706 
+   48 | 1.75 | 0.0544  0.0064  0.0608 |   1.3290 
+   49 | 1.75 | 0.0543  0.0064  0.0606 |   1.2932 
+   50 | 1.75 | 0.0541  0.0064  0.0605 |   1.2574 
+   51 | 1.75 | 0.0540  0.0064  0.0603 |   1.2271 
+   52 | 1.75 | 0.0538  0.0064  0.0602 |   1.1992 
+   53 | 1.75 | 0.0537  0.0063  0.0600 |   1.1713 
+   54 | 1.75 | 0.0536  0.0063  0.0599 |   1.1493 
+   55 | 1.75 | 0.0535  0.0063  0.0598 |   1.1276 
+   56 | 1.75 | 0.0534  0.0063  0.0597 |   1.1069 
+   57 | 1.50 | 0.0525  0.0057  0.0582 |   1.0900 
+   58 | 1.50 | 0.0511  0.0067  0.0577 |   1.0730 
+   59 | 1.50 | 0.0506  0.0070  0.0576 |   1.0579 
+   60 | 1.50 | 0.0504  0.0071  0.0575 |   1.0447 
+   61 | 1.50 | 0.0503  0.0071  0.0574 |   1.0316 
+   62 | 1.50 | 0.0502  0.0071  0.0574 |   1.0205 
+   63 | 1.50 | 0.0502  0.0071  0.0573 |   1.0103 
+Shooting registration with 2.50:-0.25:1.50 mm takes                 310s
+  Prepare output                                                     11s
+                                                                    322s
+  Jacobian determinant (RMS): 0.013 0.048 0.083 0.108 0.131 |  0.137935 
+           Template Matching: 0.082 0.072 0.063 0.057 0.052 |  0.150530 
+Write result maps                                                    66s
+ROI estimation in native space                                    
+    0s
+Quality check                                                         6s
+  /Volumes/VERBATIM/report/catreport_T2_20240405092639_6.pdf
+
+------------------------------------------------------------------------
+CAT preprocessing takes 17 minute(s) and 43 second(s).
+Image Quality Rating (IQR):  91.24% (A-)
+GM volume (GMV):             49.62% (686.40 / 1383.17 ml)
+Segmentations are saved in /Volumes/VERBATIM/mri
+Reports are saved in /Volumes/VERBATIM/report
+Labels are saved in /Volumes/VERBATIM/label
+------------------------------------------------------------------------
+
